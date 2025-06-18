@@ -19,7 +19,7 @@ function ExampleNote() {
   return (
     <Card className="w-full max-w-2xl mx-auto my-4 p-4 text-sm text-muted-foreground">
       <CardTitle className="text-lg font-semibold mb-2">
-        Notes about This example:
+        Ex 21: Notes about This example:
       </CardTitle>
       <CardContent className="text-lg style-text-muted-foreground">
         This example demonstrates how to nest the drag sources in one another.

@@ -19,7 +19,7 @@ function ExampleNote() {
   return (
     <Card className="w-full max-w-2xl mx-auto my-4 p-4 text-sm text-muted-foreground">
       <CardTitle className="text-lg font-semibold mb-2">
-        Notes about This example:
+        Ex 13: Notes about This example:
       </CardTitle>
       <CardContent className="text-lg style-text-muted-foreground">
         This example demonstrates drop targets that can accept copy and move

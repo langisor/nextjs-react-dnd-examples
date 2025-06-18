@@ -7,6 +7,10 @@ type links = {
 };
 const examples: links[] = [
   {
+    href: "/ex-2",
+    title: "Cancel on Drop Outside",
+  },
+  {
     href: "/ex-13",
     title: "Drag and Drop",
   },
@@ -22,7 +26,7 @@ const examples: links[] = [
   },
   {
     href: "/ex-21",
-    title: " How to nest the drag sources in one another",
+    title: "How to nest the drag sources in one another",
   },
 ];
 export default function Home() {
