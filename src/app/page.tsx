@@ -20,6 +20,10 @@ const examples: links[] = [
     title:
       "Drag and Drop with HTML5 and React DnD (TypeScript) - Custom Drag Layer",
   },
+  {
+    href: "/ex-21",
+    title: " How to nest the drag sources in one another",
+  },
 ];
 export default function Home() {
   return (
@@ -48,7 +52,6 @@ export default function Home() {
             className="rounded-lg shadow-lg"
           />
         </div>
-       
       </div>
       <footer className="fixed bottom-10 left-30 mt-8 text-center text-sm text-muted-foreground">
         <p>
