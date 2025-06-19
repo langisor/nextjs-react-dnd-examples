@@ -89,6 +89,9 @@ importers:
       '@radix-ui/react-tooltip':
         specifier: ^1.2.7
         version: 1.2.7(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@types/react-dnd':
+        specifier: ^3.0.2
+        version: 3.0.2(@types/node@20.19.1)(@types/react@19.1.8)(react@19.1.0)
       '@uiw/react-json-view':
         specifier: 2.0.0-alpha.32
         version: 2.0.0-alpha.32(@babel/runtime@7.27.6)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -107,6 +110,9 @@ importers:
       date-fns:
         specifier: ^4.1.0
         version: 4.1.0
+      dnd-core:
+        specifier: ^16.0.1
+        version: 16.0.1
       embla-carousel-react:
         specifier: ^8.6.0
         version: 8.6.0(react@19.1.0)
@@ -1280,6 +1286,10 @@ packages:
 
   '@types/node@20.19.1':
     resolution: {integrity: sha512-jJD50LtlD2dodAEO653i3YF04NWak6jN3ky+Ri3Em3mGR39/glWiboM/IePaRbgwSfqM1TpGXfAg8ohn/4dTgA==}
+
+  '@types/react-dnd@3.0.2':
+    resolution: {integrity: sha512-Z1BqHYGFtfSPfWs+kgX4b6wQmwwtqq4/pLo4zdO9xcDUB1ZQP8iWTAYNf3EJ2f0WiVQpSLN8UytP+ILzZHDLYw==}
+    deprecated: This is a stub types definition. react-dnd provides its own type definitions, so you don't need this installed.
 
   '@types/react-dom@19.1.6':
     resolution: {integrity: sha512-4hOiT/dwO8Ko0gV1m/TJZYk3y0KBnY9vzDh7W+DH17b2HFSOGgdj33dhihPeuy3l0q23+4e+hoXHV6hCC4dCXw==}
@@ -3983,6 +3993,15 @@ snapshots:
   '@types/node@20.19.1':
     dependencies:
       undici-types: 6.21.0
+
+  '@types/react-dnd@3.0.2(@types/node@20.19.1)(@types/react@19.1.8)(react@19.1.0)':
+    dependencies:
+      react-dnd: 16.0.1(@types/node@20.19.1)(@types/react@19.1.8)(react@19.1.0)
+    transitivePeerDependencies:
+      - '@types/hoist-non-react-statics'
+      - '@types/node'
+      - '@types/react'
+      - react
 
   '@types/react-dom@19.1.6(@types/react@19.1.8)':
     dependencies:

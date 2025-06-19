@@ -11,6 +11,10 @@ const examples: links[] = [
     title: "Cancel on Drop Outside",
   },
   {
+    href: "/ex-3",
+    title: "Sortable",
+  },
+  {
     href: "/ex-5",
     title: "specify the “drop effects” for the draggable items.",
   },
@@ -20,12 +24,12 @@ const examples: links[] = [
   },
   {
     href: "/ex-13",
-    title: "Drag and Drop",
+    title: "Dustbin - Copy Or Move",
   },
 
   {
     href: "/ex-16",
-    title: "Drag and Drop with HTML5 and React DnD (TypeScript)",
+    title: "Accepting Multiple Types - Native Files and URLs",
   },
   {
     href: "/ex-14",
@@ -33,8 +37,7 @@ const examples: links[] = [
   },
   {
     href: "/ex-17",
-    title:
-      "Drag and Drop with HTML5 and React DnD (TypeScript) - Custom Drag Layer",
+    title:"Drag around  - Custom Drag Layer",
   },
   {
     href: "/ex-19",
