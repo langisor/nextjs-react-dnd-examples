@@ -28,6 +28,10 @@ const examples: links[] = [
     title: "Drag and Drop with HTML5 and React DnD (TypeScript)",
   },
   {
+    href: "/ex-14",
+    title: "Dustbin - Within an iframe",
+  },
+  {
     href: "/ex-17",
     title:
       "Drag and Drop with HTML5 and React DnD (TypeScript) - Custom Drag Layer",
