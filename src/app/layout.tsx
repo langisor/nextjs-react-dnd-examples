@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "@/styles/globals.css";
-
+import TopNav from "@/components/top-nav";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -27,6 +27,18 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <TopNav />
+        <div className="container mx-auto px-4 py-8">
+          <div className="max-w-3xl mx-auto">
+            <h1 className="text-4xl font-bold mb-6">React DnD Examples</h1>
+            <p className="mb-4">
+              This is a collection of examples demonstrating how to use the
+              React DnD library for drag-and-drop functionality in React
+              applications.
+            </p>
+          </div>
+        </div>
+
         {children}
       </body>
     </html>
