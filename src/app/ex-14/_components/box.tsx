@@ -1,4 +1,5 @@
-"use client";import type { CSSProperties, FC } from 'react'
+"use client";
+import type { CSSProperties, FC } from 'react'
 import { useDrag } from 'react-dnd'
 
 import { ItemTypes } from './ItemTypes'
